@@ -77,8 +77,13 @@ public class Application {
 							System.out.println("Author not deleted");
 						}
 						break;
-					default:
+					case "4":
+						System.out.println("exiting system");
 						System.exit(0);
+						
+						break;
+					default:
+						System.out.println("enter 1-4 only");
 				}
 			}
 		}catch(Exception e) {
